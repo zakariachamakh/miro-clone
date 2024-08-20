@@ -9,6 +9,7 @@ import type { Layer, Color } from "@/types/canvas";
 
 const client = createClient({
   authEndpoint: "/api/liveblocks-auth",
+  publicApiKey: "pk_prod_CRLQw0L7GAQDbYGPrryzNj4-0B6Q4biF0o5xggPZEH9xLyevmUk6tSsdoBn7zYuN",
   throttle: 16,
 });
 
